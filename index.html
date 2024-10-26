@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<link rel="stylesheet" href="style.css" />
+  <head>
+    <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
-<script src="index.css"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>MyTodo Application</h1>
+      <form>
+        <input type="text" id="title" placeholder="Title Here" required />
+        <textarea
+          id="description"
+          placeholder="Description Here"
+          required
+        ></textarea>
+        <button type="submit">Submit</button>
+      </form>
+
+      <!-- <div class="task">
+        <div>
+          <p>Title</p>
+          <span>Description Here</span>
+        </div>
+        <button class="deleteBtn">-</button>
+      </div> -->
+    </div>
+  </body>
+  <script src="index.js"></script>
 </html>
